@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import Layout from "../components/Layout";
 import Table from '../components/Table';
 import Client from "../core/client";
@@ -24,6 +25,10 @@ export default function Home() {
       text-white
     `}>
       <Layout title="Cadastro Simples">
+        <div className="flex justify-end">
+          <Button className="mb-4" color="purple">Novo Cliente</Button>
+        </div>
+
         <Table
           clients={ clients }
           selectedClient={ selectedClient }
