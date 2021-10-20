@@ -1,4 +1,4 @@
-import Client from '../core/client'
+import Client from '../core/Client'
 import { EditIcon, TrashIcon } from './Icons'
 
 interface TableProps {

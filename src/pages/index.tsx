@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import Form from "../components/Form";
 import Layout from "../components/Layout";
 import Table from '../components/Table';
-import Client from "../core/client";
+import Client from "../core/Client";
 
 export default function Home() {
   const [client, setClient] = useState(Client.emptyClient)
